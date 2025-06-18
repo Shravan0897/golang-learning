@@ -14,10 +14,10 @@ func main() {
 	fmt.Println(vals)
 
 	//array declaration with elements
-	names := []string{"shravan", "tomar"}
+	names := [2]string{"shravan", "tomar"}
 	fmt.Println(names)
 
 	//2d arrays
-	relation := [][]int{{1, 2, 3}, {4, 5, 6}}
+	relation := [3][3]int{{1, 2, 3}, {4, 5, 6}}
 	fmt.Println(relation)
 }
